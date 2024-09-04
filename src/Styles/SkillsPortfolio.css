@@ -1,0 +1,87 @@
+.cardData {
+  border: 1px solid #695aa6 !important;
+  width: 80% !important;
+
+  height: 40vh !important;
+  padding: 30px;
+  overflow: hidden;
+
+  /* display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; */
+}
+.QuesSkill {
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(12px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: #5b5b60;
+  opacity: 1;
+}
+.skill {
+  font-family: "Baloo Paaji", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+
+  color: #695aa6;
+  margin-bottom: 4%;
+}
+
+.slick-slide {
+  margin: 0px;
+}
+.slick-list {
+  margin: none;
+}
+
+.imgElement {
+  width: 19%;
+  margin-bottom: 20px;
+}
+.techName {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-bottom: 10px; */
+}
+.imgContainerr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-bottom: 10px; */
+}
+.description {
+  visibility: hidden;
+}
+
+.insideCard {
+  /* height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.insideCard:hover .description {
+  visibility: visible;
+  font-family: "Open Sans", sans-serif;
+  color: #111;
+  opacity: 0.6;
+}
+.insideCard:hover .techName {
+  height: 10vh;
+  transform: translateX(2);
+  transition: 1s;
+  margin-bottom: 15px;
+}
+.insideCard:hover .imgElement {
+  width: 17%;
+  margin-bottom: 10px;
+}
+.tech {
+  color: #695aa6;
+  font-family: "Baloo Paaji", cursive;
+}

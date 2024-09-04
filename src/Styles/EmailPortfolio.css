@@ -1,0 +1,65 @@
+.ques {
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(12px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: #5b5b60;
+  opacity: 1;
+}
+.contact {
+  font-family: "Baloo Paaji", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+
+  color: #695aa6;
+  margin-bottom: 4%;
+}
+.formParentContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.formContainer {
+  width: 50%;
+}
+.inputFormContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5%;
+}
+.nameInput {
+  width: 49%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 10px;
+}
+.emailInput {
+  width: 49%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.textInput {
+  padding: 2%;
+  height: 20vh;
+  margin-bottom: 5%;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.btnMessage {
+  width: 20%;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.01);
+  color: #695aa6;
+  border: 1px solid #695aa6;
+  border-radius: 0.25rem;
+}
+
+.btnMessage:hover {
+  background-color: #695aa6;
+  color: #fff;
+}

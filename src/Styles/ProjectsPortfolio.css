@@ -1,0 +1,106 @@
+.cardProject {
+  border: 1px solid #695aa6;
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30vh;
+  overflow: hidden;
+}
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.infoProject {
+  visibility: hidden;
+  background-image: -webkit-linear-gradient(
+    bottom,
+    #e1dfed 0%,
+    rgba(225, 223, 237, 0.7) 99%,
+    rgba(225, 223, 237, 0.8) 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    #e1dfed 0%,
+    rgba(225, 223, 237, 0.7) 99%,
+    rgba(225, 223, 237, 0.8) 100%
+  );
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 0%;
+  transition: background-size 0.5s, color 0.5s;
+  color: white;
+}
+.imgProject {
+  width: 100%;
+  display: block;
+  height: 30vh;
+  position: relative;
+}
+
+.cardProject:hover .infoProject {
+  visibility: visible;
+  position: absolute;
+  top: 303%;
+  width: 19.9%;
+
+  height: 30vh;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-size: 100% 100%;
+  color: #695aa6;
+  font-family: "Baloo Paaji", cursive;
+  /* flex-direction: column; */
+}
+.innerInfoProject {
+  width: 100%;
+}
+
+/* .cardProject::before {
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.cardProject:hover::before {
+  transform: scaleX(1);
+} */
+.ques {
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(12px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: #5b5b60;
+  opacity: 1;
+}
+.info {
+  font-family: "Baloo Paaji", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+
+  color: #695aa6;
+  margin-bottom: 4%;
+}
+
+@media only screen and (width<= 426px) {
+  .projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardProject {
+    width: 80%;
+
+    margin-bottom: 5%;
+  }
+
+  .info {
+    font-family: "Baloo Paaji", cursive;
+    font-weight: bolder;
+    font-size: 35px;
+
+    color: #695aa6;
+    margin-bottom: 5%;
+  }
+}

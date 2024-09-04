@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji");
+
+a {
+  text-decoration: none !important;
+}
+
+.navButton {
+  background-color: transparent;
+  border: none;
+}
+
+.open-menu {
+  transition: transform 1s;
+  transform: translateY(10px);
+}
+.navHome {
+  font-family: "Baloo Paaji", sans-serif;
+}
+.navBarPort {
+  position: absolute;
+
+  width: 100%;
+
+  height: 400vh;
+}
+
+@media only screen and (width<= 425px) {
+  .navBarPort {
+    height: 200vh;
+  }
+}
