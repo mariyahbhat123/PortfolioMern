@@ -39,7 +39,7 @@ export default function NavbarPortfolio(props) {
           fontWeight: "bolder",
         }}
       >
-        <h3>Meyawo</h3>
+        <h3>Portfolio</h3>
       </div>
 
       <div style={{ display: "flex", flexDirection: "row" }}>

@@ -9,12 +9,12 @@ import "../Styles/FooterPortfolio.css";
 
 export default function FooterPortfolio() {
   return (
-    <div>
+    <div className="parentFooterContainer">
       <div className="footerParentContainer">
         <div className="copyRightText">
-          <p>Copyright 2024 © DevCRUD Distribution ThemeWagon</p>
+          <p>Copyright 2024©</p>
         </div>
-        <div>
+        <div className="iconsContainer">
           <button className="btnIcon">
             <FacebookIcon className="icons" />
           </button>
